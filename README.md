@@ -2,17 +2,12 @@
 
 A simple wallet microservice running on the JVM that manages credit/debit transactions on behalf of players.
 
-## Getting Started
-
-An implementation of transaction rest api that external callers
-can make credit or debit on a player account with globally unique transaction id.
-
 ### Prerequisites
 
 For building and running the application you need:
 
-- [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-- [Maven 3](https://maven.apache.org)
+- [JDK 1.8]
+- [Maven 3]
 
 ## Running the application locally
 
@@ -24,8 +19,3 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 mvn spring-boot:run
 ```
 Then application can be started successfully.
-
-You can manage the api service with swagger as below link:</br>
-	http://localhost:8080/api/wallet/swagger-ui.html</br>
-Also you can see H2 DB as below link:</br>
-	http://localhost:8080/api/wallet/h2-console
